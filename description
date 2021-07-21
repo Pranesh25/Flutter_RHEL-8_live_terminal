@@ -1,0 +1,4 @@
+CGI : -The Common Gateway Interface, or CGI, is a standard for external gateway programs to interface with information servers such as HTTP servers.
+In this project I have made a python cgi file which parses the url and give the desired output as a result
+I created an app using flutter and wrote code in dart language which sends querry in server and cgi accepts that querry and give out the output
+In this project I created the live terminals in which you can use your mobile app to run a live terminal from the app and see the result in the app.
